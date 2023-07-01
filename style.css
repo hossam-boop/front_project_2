@@ -1,0 +1,657 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    list-style-type: none;
+}
+ 
+.headerLogo{    
+    width: 35%;
+    float: left;
+    padding-left: 5%;
+    margin: auto;
+    padding: 2%;
+    color: #ff305b;
+    display: block;
+    font-size: 24px;
+    font-weight: 800;
+}
+
+.headerList {
+    text-align: center;    
+    width: 65%;
+    float: left;
+    font-family: "Roboto",sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    letter-spacing: 0.5px;
+}
+
+.headerLogo a{
+    width: 55%;
+}
+
+.listItem{
+    list-style-type: none;
+    float: left;
+    color: #fff;
+
+    
+    padding: 4% 0%;
+    margin-left: 6%;
+    font-size: large;
+    
+
+} 
+
+.home{
+    background-image: url(img/slider/slider-01.jpg);
+    height: 100vh;
+    
+    background-size: 100% 100%;
+     overflow: auto; 
+}
+
+.hometext{
+    margin: auto;
+    text-align: center;
+    margin-top: 10%;
+}
+.hometext h2{
+    color: ff305b;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 68px;
+    font-family:'Source Sans Pro', sans-serif;
+    padding: 15px;
+
+}
+.hometext h4{
+    color: #fff;
+    font-weight: 600;
+    margin: 0 0 10px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 20px;
+
+}
+
+.contentHome{
+    background-color: rgba(0, 0, 0, 0.8);
+    height: 100vh;
+}
+
+.clr{
+    clear: both;
+}
+
+.cv{
+    
+    height:110vh ;
+    margin-top: 5%;
+}
+.cvPhoto{
+    
+    width: 40%;
+    float: left;
+    
+
+}
+.Photo{
+position: relative;
+ width: 60% ;
+ margin-left: 30%;
+ 
+}
+
+
+
+
+.profile{
+    width: 100%;
+    border-radius: 5%;
+}
+.icon1{
+    width: 8%;
+    position: absolute;
+    top: 50%;
+    left: 38%;
+    
+}
+.icon2{
+    width: 8%;
+    position: absolute;
+    top: 50%;
+    left: 46%;
+    
+}
+.icon3{
+    width: 8%;
+    position: absolute;
+    top: 50%;
+    left: 54%;
+    
+}
+.icon4{
+    width: 8%;
+    position: absolute;
+    top: 50%;
+    left: 62%;
+    
+}
+
+.photocover{
+
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    bottom: 0px;
+    right: 0px;
+    background-color: rgba(0, 0, 0, 0.57);
+    margin: auto;
+    opacity: 0;
+    transition: all 1s;
+    border-radius: 5%;
+    
+}
+
+.cvText{
+    padding: 0% 10%;
+    width: 60%;
+    float: left;
+    
+}
+
+
+.cvText h2{
+    padding: 4%;
+    position: relative;
+    
+    
+}
+
+.cvText h2 ::before{
+    content:"" ;
+    background-color: #ff305b;
+    position: absolute;
+    width: 5%;
+    height: 10%;
+    
+}
+
+.cvTextP{
+    border-bottom: 1px dashed #999999;
+    margin-bottom: 25px;
+    padding-bottom: 25px;
+    font: inherit;
+    font-family: "Alegreya Sans";
+    font-size: 17px;
+    color: #686868;
+}
+
+.cvtext1{
+    
+    width: 40%;
+    float: left;
+}
+
+.cvtext2{
+    
+    width: 60%;
+    float: left;
+}
+
+.cvP{
+    
+    
+    font-family: "Alegreya Sans";
+    
+    color: #686868;
+    size: 14;
+    display: inline;
+
+}
+
+.cvText h4{
+    padding: 10px 0px;
+}
+
+.cv Button{
+    display: inline-block;
+    width: 30%;
+    border: none;
+    background-color: #ff305b;
+    font: inherit;
+    padding: 10px 20px;
+    color: #fff !important; 
+    margin-top: 3%;
+    border-radius: 8px;
+    
+}
+.photoButton a{
+    color: #fff;
+}
+    
+
+
+
+.photoButton{
+    width: 10%;
+
+}
+.Photo:hover .photocover{
+    opacity: 1;
+    
+    
+}
+
+.Services{
+    background-color: #f1f1f1;
+    height: 80vh;
+    text-align: center;
+}
+
+
+.Services h1{
+  padding-top: 3%;
+  border-bottom: 1px solid #ff305b;
+  width: 20%;
+  text-align: center;
+  margin: auto;
+
+}
+
+.Services h3{
+    padding: 5% 0%;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #333;
+  
+  }
+
+  .Services p{
+    color: #555555;
+    -webkit-text-size-adjust: 100%;
+}  
+
+.itme{
+  width:25%;
+  float: left;
+  padding: 5% 1% ;
+  margin-top: 2%;
+  transition: all 0.6s;
+
+}
+
+.itme:hover{
+    background-color: #fff;
+
+}
+
+.itme:hover img{
+   transform:scale(1.1,1.1);
+}
+
+
+
+
+
+.Services img{
+    width: 20%;
+    padding: 3% 0%;
+    border-radius: 10%;
+}
+
+.Portfolio h2{
+    padding: 4% 0%;
+    font-weight: 800;
+    line-height: 30px;
+    margin-bottom: 40px;
+    padding-bottom: 30px;
+    position: relative;
+    text-transform: capitalize;
+    margin: 0 0 10px;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #333;
+}
+
+.Portfolio h4{
+    display: inline;
+    padding: 5% 4%;
+    font-family: inherit;
+    
+}
+
+.textPortfolio{
+    display: inline-flexbox;
+    text-align: center;
+    padding: 4% 8%;
+    margin: auto;
+}
+
+.all{
+    margin-left: 3%;
+    text-align: center;
+    opacity: 1;
+
+}
+
+.all img{
+    padding: 1% 1%;
+    width: 33%;
+    float: left;
+    margin: auto;
+}
+
+.clickall:hover .All{
+    opacity: 0;
+
+}
+
+.number{
+    height: 40vh;
+    background-color:  #f1f1f1;
+    margin-top: 7%;
+    
+    text-align: center;
+
+    
+}
+
+.number img{
+    width: 20%;
+    padding: 3%;
+}
+
+.Nitme{
+    width: 25%;
+    float: left;
+    margin-top: 4%;
+    
+}
+
+.number p{
+
+    color: #555555;
+    font-size: 16px;
+    margin: 0;
+    font-weight: 600;
+}
+.number h3{
+    padding: 2% 0%;
+}
+
+.Feedback{
+    padding: 3% 0%;
+    height: 80vh;
+    margin: auto;
+    text-align: center;
+}
+
+.Feedback h1{
+    padding:3% ;
+}
+
+.Feedbackdiv{
+    background-color:  #f1f1f1;
+    width: 60%;
+    height: 50%;
+    margin: auto;
+    padding: 4% 1%;
+    position: relative;
+}
+
+.FeedbackPhoto{
+    width: 20%;
+    
+    float: left;
+}
+
+.FeedbackText{
+    margin-top: 1%;
+    width: 80%;
+    float: left;
+    text-align: left;
+    
+}
+
+.FeedbackPhoto img{
+    border-radius: 100%;
+    width: 70%;
+
+}
+
+.FeedbackText h3{
+    padding-bottom: 2%;
+
+}
+
+.RedDiv{
+    background-color: #ff305b;
+    width: 17%;
+    height: 27%;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    rotate: 50;
+}
+iframe{
+    width: 100%;
+}
+
+.Blog{
+    background-color: #f1f1f1;
+    height: 110vh;
+    margin: auto;
+    text-align: center;
+}
+
+.Blog h1{
+    padding-top:  3%;
+
+}
+
+.BlogItme{
+    margin-left: 2%;
+    margin-top: 7%;
+    width: 30%;
+    float: left;
+    padding: 3%;
+    background-color: white;
+    text-align: left;
+
+}
+
+.BlogItme img{
+    width: 100% !important;
+    
+}
+
+.BlogItme p, .BlogItme h3{
+    padding: 3%;
+}
+
+.Contact{
+    margin-top: 2%;
+    text-align: center;
+}
+
+
+
+.Subgject{
+   margin: 10px;
+}
+
+.Contact1 input{
+    width: 20%;
+    height: 5vh;
+}
+.Contact2 input{
+    width: 40%;
+    height: 5vh;
+}
+
+.Contact h1{
+  padding: 5% 0%;
+}
+
+.Contact2 textarea{
+    width: 40%;
+}
+
+.Contact Button{
+    
+    width: 20%;
+    border: none;
+    background-color: #ff305b;
+    font: inherit;
+    padding: 10px 20px;
+    color: #fff !important; 
+    margin-top: 3%;
+    border-radius: 4px;
+    text-align: left;
+    
+}
+
+.end{
+    background-color: #333333;
+    margin-top: 5% ;
+    text-align: center;
+    height: 40vh;
+    color: white;
+}
+
+.end img{
+    margin-top: 3%;
+    width: 2%;
+    padding: 2% 0%;
+   
+    
+
+}
+
+.end a:link {
+    
+    background-color: transparent;
+    text-decoration: none;
+  }
+  .end a:visited {
+    color: red;
+    background-color: transparent;
+    text-decoration: none;
+  }
+ .end a:hover {
+    color: red;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+
+ .cvText a:link  {
+    
+    background-color: transparent;
+    text-decoration: none;
+  }
+  .cvText a:visited {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  .cvText a:hover {
+    color: white;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+ 
+  @media screen and (max-width:600px){
+    
+
+    .cvPhoto img{
+        width: 100%;
+        margin-bottom: 20%;
+    }
+    
+    
+    .cvText{
+       width:  100%;
+       margin-bottom: 20%;
+    }
+
+    .itme{
+        width: 100%;
+        margin-bottom: 20%;
+    }
+
+    .all img{
+        width: 100%;
+        margin-bottom: 20%;
+
+    }
+
+    .Nitme{
+        width: 100%;
+        margin-bottom: 20%;
+    }
+
+    .Feedbackdiv{
+        width: 100%;
+    }
+
+    .BlogItme{
+        width: 100%;
+        margin-bottom: 20%;
+        
+    }
+
+
+
+}
+
+@media screen and (min-width:601px) and (max-width:768px){
+   
+    .cvPhoto img{
+        width: 50%;
+        margin-bottom: 20%;
+    }
+    
+    
+    .cvText{
+       width:  50%;
+       margin-bottom: 20%;
+    }
+
+    .itme{
+        width: 50%;
+        margin-bottom: 20%;
+    }
+
+    .all img{
+        width: 50%;
+        margin-bottom: 20%;
+
+    }
+
+    .Nitme{
+        width: 50%;
+        margin-bottom: 20%;
+    }
+
+    .Feedbackdiv{
+        width: 50%;
+    }
+
+    .BlogItme{
+        width: 50%;
+        margin-bottom: 20%;
+        
+    }
+
+
+}
+
+@media screen and (min-width:769) and (max-width:992px){
+    
+
+}
+
+@media screen and (min-width:993px) and (max-width:1200px){
+    
+
+}
